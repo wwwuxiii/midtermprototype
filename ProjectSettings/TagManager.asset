@@ -12,6 +12,7 @@ TagManager:
   - Bubble1
   - Bubble2
   - Trigger2
+  - Whale
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - Player
   - Feet
   - Floor
-  - 
+  - Whales
   - 
   - 
   - 
@@ -48,4 +49,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Whales
+    uniqueID: 2964004475
+    locked: 0
+  - name: Player
+    uniqueID: 3756403045
     locked: 0

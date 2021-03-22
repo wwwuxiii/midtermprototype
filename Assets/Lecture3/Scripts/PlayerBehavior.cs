@@ -23,6 +23,7 @@ public class PlayerBehavior : MonoBehaviour
 
     public static bool faceRight = true;
 
+  
     // Start is called before the first frame update
     void Start()
     {
@@ -53,12 +54,12 @@ public class PlayerBehavior : MonoBehaviour
         if(Input.GetKey(KeyCode.D)){
             moveDir = 1;
             faceRight = true;
-             myRenderer.flipX = false;
+             myRenderer.flipX = true;
         }
         else if(Input.GetKey(KeyCode.A)){
             moveDir = -1;
             faceRight = false;
-            myRenderer.flipX = true;
+            myRenderer.flipX = false;
         }
         else{
             moveDir = 0;
